@@ -1,12 +1,8 @@
-h1{
-   color:red; 
+h1, h2, h3, h4, h5{
+   
    font-family:'Original Surfer', cursive;
 }
 
-h2{
- color:red; 
- font-family:'Original Surfer', cursive;
-}
 
  .homepagebg{
     background-repeat: no-repeat;
