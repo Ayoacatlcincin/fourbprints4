@@ -2,7 +2,46 @@
 
 
 {% block content %}
-
+  </div>
+    <!-- contact us form starts here-->
+    <div class="container" style="background-image:url({{ url_for('static', filename='img/clouds.jpg') }})">
+        <form action="{{url_for('contact')}}" method="post" enctype="multipart/form-data">
+            {{ form.csrf_token }}
+            {{ form.hidden_tag() }}
+        <br>
+        <div class="row text-light">
+        <div class="col">
+            {{ form.first.label }} {{ form.first }}
+        </div>
+        <div class="col">
+            {{ form.last.label }} {{ form.last }}
+        </div>
+        </div>
+        <br>
+        <div class="row text-light">
+        <div class="col">
+            {{ form.email.label }} {{ form.email }} 
+        </div>
+        <div class="col">
+            {{ form.quantity.label }} {{ form.quantity }}
+        </div>
+        </div>
+        <br>
+        <div class="row text-light">
+        <div class="col">
+            {{ form.message.label }}
+            <br>
+            {{ form.message(cols='65',rows='5') }} 
+        </div>
+        <div class="col">
+            {{ form.file.label }} {{ form.file }}
+        </div>
+        </div>
+        <br>
+        {{ form.submit() }}
+        <br>
+    </form>
+    </div>
             
             
   
