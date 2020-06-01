@@ -2,9 +2,9 @@
 
 
 {% block content %}
-  </div>
+   <div class="container bg-primary">
     <!-- contact us form starts here-->
-    <div class="container" style="background-image:url({{ url_for('static', filename='img/clouds.jpg') }})">
+    <div class="container text-dark" style="background-image:url({{ url_for('static', filename='img/clouds.jpg') }})">
         <form action="{{url_for('contact')}}" method="post" enctype="multipart/form-data">
             {{ form.csrf_token }}
             {{ form.hidden_tag() }}
@@ -41,6 +41,7 @@
         {{ form.submit() }}
         <br>
     </form>
+    </div>
     </div>
             
             
