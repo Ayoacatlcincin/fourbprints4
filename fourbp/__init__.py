@@ -16,6 +16,6 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 app.config['SECRET_KEY'] = "mysecretkey"
 app.config['TEMPLATES_AUTO_RELOAD'] = True
-app.config['TESTING'] = False
+app.config['TESTING'] = True
 app.config['LOGIN_DISABLED'] = False
 app.config['UPLOAD_FOLDER'] = basedir + '/upload'
