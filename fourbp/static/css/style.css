@@ -3,31 +3,34 @@ h1, h2, h3, h4, h5, p{
 }
 /* not active */
 .nav-pills .pill-1 .nav-link:not(.active) {
-   background-color: rgba(15, 236, 15, 0.5);
+   background-color: green;
+   color: white;
 }
 
 .nav-pills .pill-2 .nav-link:not(.active) {
-   background-color: rgba(15, 236, 15, 0.5);
+   background-color: green;
+   color: white;
 }
 
 .nav-pills .pill-3 .nav-link:not(.active) {
-   background-color:  rgba(15, 236, 15, 0.5);
+   background-color:  green;
    color: white;
 }
 
 
 /* active (faded) */
 .nav-pills .pill-1 .nav-link {
-   background-color: rgba(224, 240, 10, 0.842);
+   background-color:yellow;
    color: white;
 }
 
 .nav-pills .pill-2 .nav-link {
-   background-color: rgba(224, 240, 10, 0.842);
+   background-color: yellow;
+   color: white;
 }
 
 .nav-pills .pill-3 .nav-link {
-   background-color: rgba(224, 240, 10, 0.842);
+   background-color: yellow;
    color: white;
 }
 
