@@ -20,17 +20,17 @@ h1, h2, h3, h4, h5, p{
 
 /* active (faded) */
 .nav-pills .pill-1 .nav-link {
-   background-color:yellow;
+   background-color:black;
    color: white;
 }
 
 .nav-pills .pill-2 .nav-link {
-   background-color: yellow;
+   background-color: black;
    color: white;
 }
 
 .nav-pills .pill-3 .nav-link {
-   background-color: yellow;
+   background-color: black;
    color: white;
 }
 
